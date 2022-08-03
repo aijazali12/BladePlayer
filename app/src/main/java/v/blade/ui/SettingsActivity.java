@@ -453,6 +453,7 @@ public class SettingsActivity extends AppCompatActivity implements
 
                 try
                 {
+                    assert c != null;
                     Source toAdd = (Source) c.newInstance();
 
                     //Set source default status

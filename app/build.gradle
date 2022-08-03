@@ -87,6 +87,7 @@ dependencies {
         exclude group: 'org.apache.logging.log4j'
     }
     implementation 'uk.uuid.slf4j:slf4j-android:1.7.30-0' //Needed to log librespot-player
+    //noinspection GradleDependency
     implementation 'com.spotify.android:auth:1.2.6'
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'

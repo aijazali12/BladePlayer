@@ -55,11 +55,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
 
         //First launch dialog
-        if(BladeApplication.shouldDisplayFirstLaunchDialog)
-        {
-            BladeApplication.shouldDisplayFirstLaunchDialog = false;
-            Dialogs.openFirstLaunchDialog(this);
-        }
+//        if(BladeApplication.shouldDisplayFirstLaunchDialog)
+//        {
+//            BladeApplication.shouldDisplayFirstLaunchDialog = false;
+//            Dialogs.openFirstLaunchDialog(this);
+//        }
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
